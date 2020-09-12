@@ -8,7 +8,7 @@ const port = process.env.port || 3000
 //connect database
 
 //init
-app.set("view-engine","ejs")
+app.set("view engine","ejs")
 app.use(express.urlencoded({extended:true}))
 
 //routes
