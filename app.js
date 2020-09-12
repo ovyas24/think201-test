@@ -9,6 +9,7 @@ const port = process.env.port || 3000
 
 //init
 app.set("view engine","ejs")
+app.use(express.static("public"))
 app.use(express.urlencoded({extended:true}))
 
 //routes
